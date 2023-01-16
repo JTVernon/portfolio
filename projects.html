@@ -13,38 +13,62 @@
 </head>
 <body>
         <!-- Navbar -->
-        <nav>
-            <ul>
-                <li>
-                    <h1>
-                        <a href="index.html"><span class="fa-sharp fa-solid fa-code"></span>
-                            <span>John Vernon</span></a>
-                    </h1>
-                </li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="https://www.linkedin.com/in/john-vernon/" target="_blank">
-                        <span class="fa-brands fa-linkedin" aria-hidden="true"></span> <span class="sr-only">LinkedIn</span>
-                    </a>
-    
-                </li>
-                <li><a href="https://github.com/JTVernon" target="_blank">
-                        <span class="fa-brands fa-github" aria-hidden="true"></span>
-                        <span class="sr-only">
-                            Github
-                        </span>
-                    </a>
-                </li>
-                <li><a href="https://www.dropbox.com/s/e2ghklsl4fou40t/Vernon.John.Resume.pdf?dl=0" class="button"
-                        target="_blank">Resume</a></li>
-            </ul>
-        </nav>
+        <div class="header">
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <h1>
+                                <a href="index.html"><span class="fa-sharp fa-solid fa-code"></span>
+                                    <span>John Vernon</span></a>
+                            </h1>
+                        </li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://www.linkedin.com/in/john-vernon/" target="_blank">
+                                <span class="fa-brands fa-linkedin" aria-hidden="true"></span> <span
+                                    class="sr-only">LinkedIn</span>
+                            </a>
+        
+                        </li>
+                        <li><a href="https://github.com/JTVernon" target="_blank">
+                                <span class="fa-brands fa-github" aria-hidden="true"></span>
+                                <span class="sr-only">
+                                    Github
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="https://www.dropbox.com/s/e2ghklsl4fou40t/Vernon.John.Resume.pdf?dl=0" class="button"
+                                target="_blank">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
         <!-- End Navbar -->
         <!--Start Projects-->
         <div class="section-blue">
             <section id="projects">
                 <h2>More Projects!</h2>
+                <article class="reverse">
+                    <div class="text">
+                        <h3>Weather Forecast</h3>
+                        <p class="blackbox">
+                          Users can search a query of cities and view the current and future weather forecast for their selected location.
+                          This project uses React, Hooks, Tailwind CSS, and a third party API.  View the deployed site <a href="https://react-weather-app-hazel.vercel.app/" target="_blank"> here</a>.
+                            Take a look at the Github repository <a href="https://github.com/JTVernon/react_weather_app"
+                                target="_blank"> here</a>.
+                        </p>
+                        <h4>Technologies used include:</h4>
+                        <ul>
+                            <li>React</li>
+                            <li>Hooks</li>
+                            <li>Tailwind CSS</li>
+                            <li>API</li>
+                        </ul>
+                    </div>
+                    <img src="img/weatherForecast.png" alt="Screenshot of weather app." />
+                </article>
                 <article>
             <div class="text">
                 <h4>Latest Project</h4>
@@ -145,7 +169,7 @@
                         <li>API</li>
                     </ul>
                 </div>
-                <img src="img/nasa.png" alt="Screenshot of NASA." />
+                <img src="img/nasa_12-06-22.png" alt="Screenshot of NASA." />
             </article>
             <article class="reverse">
                 <div class="text">
